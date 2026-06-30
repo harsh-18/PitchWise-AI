@@ -151,9 +151,9 @@ def probability_view(score_a, score_b):
     draw = max(14, 28 - abs(score_a - score_b) * 1.4)
     remaining = 100 - draw
     share_a = score_a / total
-    win_a = remaining * share_a
-    win_b = remaining - win_a
-    return round(win_a, 1), round(draw, 1), round(win_b, 1)
+    edge_a = remaining * share_a
+    edge_b = remaining - edge_a
+    return round(edge_a, 1), round(draw, 1), round(edge_b, 1)
 
 
 def fan_explanation(level, team_a, team_b, profile_a, profile_b, event):
@@ -285,13 +285,13 @@ st.caption(
 )
 
 left, middle, right = st.columns(3)
-left.metric(f"🟦 {team_a} win", f"{p_a}%")
-middle.metric("⚖️ Draw tension", f"{p_draw}%")
-right.metric(f"🟥 {team_b} win", f"{p_b}%")
+left.metric(f"🟦 {team_a} contextual edge", f"{p_a}%")
+middle.metric("⚖️ Balanced tension", f"{p_draw}%")
+right.metric(f"🟥 {team_b} contextual edge", f"{p_b}%")
 
-st.progress(p_a / 100, text=f"{team_a} match outlook")
-st.progress(p_draw / 100, text="Draw / unresolved tension")
-st.progress(p_b / 100, text=f"{team_b} match outlook")
+st.progress(p_a / 100, text=f"{team_a} narrative weight")
+st.progress(p_draw / 100, text="Balanced / unresolved tension")
+st.progress(p_b / 100, text=f"{team_b} narrative weight")
 
 with st.expander("ℹ️ How PitchWise calculates this", expanded=False):
     st.markdown(
@@ -307,7 +307,7 @@ with st.expander("ℹ️ How PitchWise calculates this", expanded=False):
         "- Venue atmosphere adds a ±2.5 point boost to the home-crowd team's base score  \n"
         "- Tournament pressure (slider) amplifies or dampens the pressure-handling dimension  \n\n"
         "**What the percentages mean:**  \n"
-        "The win/draw/loss figures are a *contextual narrative split*, not a probability model. "
+        "The contextual edge / balanced tension / contextual edge figures are a *narrative weight split*, not a probability model. "
         "They show which team's profile gives it more structural weight in this fixture, "
         "given the selected conditions. PitchWise does not claim to predict results."
     )
