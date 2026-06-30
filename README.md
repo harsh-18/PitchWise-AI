@@ -8,7 +8,7 @@ PitchWise is an explainable World Cup match companion that helps fans understand
 
 ## Live Demo
 
-> **Deployed URL:** _coming soon — will be updated once hosted on Streamlit Community Cloud_
+> **Live:** [https://pitchwise-explain-the-match.streamlit.app](https://pitchwise-explain-the-match.streamlit.app)
 >
 > To run locally: `pip install -r requirements.txt && streamlit run app.py`
 
