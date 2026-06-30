@@ -1,4 +1,4 @@
-# Contributing to PitchWise AI
+# Contributing to PitchWise
 
 Thank you for your interest in contributing. This is a hackathon prototype, so the bar for contributions is practical and focused.
 

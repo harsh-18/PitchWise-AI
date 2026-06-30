@@ -1,10 +1,10 @@
-# PitchWise AI
+# PitchWise
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Built with Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-ff4b4b.svg)](https://streamlit.io)
 [![GitHub](https://img.shields.io/badge/GitHub-pitchwise--explain--the--match-181717.svg)](https://github.com/harsh-18/pitchwise-explain-the-match)
 
-PitchWise AI is an explainable World Cup match companion that helps fans understand the story behind a match, not just the score or prediction.
+PitchWise is an explainable World Cup match companion that helps fans understand the story behind a match, not just the score or prediction.
 
 ## Live Demo
 
@@ -18,7 +18,7 @@ World Cup matches are watched by billions of people, but fans understand them di
 
 ## Solution
 
-PitchWise AI gives fans a simple, explainable match interpretation experience. Users choose two teams, match context, fan knowledge level, pressure level, and a key match event. The app then explains:
+PitchWise gives fans a simple, explainable match interpretation experience. Users choose two teams, match context, fan knowledge level, pressure level, and a key match event. The app then explains:
 
 - which team has contextual advantages
 - why the model leans one way
@@ -41,17 +41,17 @@ The prototype uses an explainable scoring model based on team attributes:
 - venue context
 - match pressure
 
-Instead of acting as a pure outcome predictor, PitchWise AI converts those factors into transparent explanations. The app generates different match narratives depending on the fan's knowledge level and the selected match event.
+Instead of acting as a pure outcome predictor, PitchWise converts those factors into transparent explanations. The app generates different match narratives depending on the fan's knowledge level and the selected match event.
 
 This keeps AI central to the user experience while focusing on understanding, explainability, trust, and accessibility rather than replacing coaches, referees, or players.
 
 ## Why It Matters
 
-The World Cup is not only about results. It is about interpretation, emotion, debate, and shared meaning. PitchWise AI helps fans understand tactical shifts, pressure moments, and controversial events in clearer language, making soccer analysis more accessible at global scale.
+The World Cup is not only about results. It is about interpretation, emotion, debate, and shared meaning. PitchWise helps fans understand tactical shifts, pressure moments, and controversial events in clearer language, making soccer analysis more accessible at global scale.
 
 ## What This Project Avoids
 
-PitchWise AI is not:
+PitchWise is not:
 
 - a pure score prediction engine
 - a referee replacement

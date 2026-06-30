@@ -1,4 +1,4 @@
-# PitchWise AI — Project Summary
+# PitchWise — Project Summary
 
 **Hackathon:** IBM TechXchange / Call for Code 2025  
 **Category:** AI for Fan Experience / Explainable AI  
@@ -8,7 +8,7 @@
 
 ## What It Does
 
-PitchWise AI is a live World Cup match explainer. It takes a fixture, a set of contextual inputs, and a match event — and produces a layered, human-readable explanation of what is happening tactically, why momentum may shift, and how to interpret key decisions honestly.
+PitchWise is a live World Cup match explainer. It takes a fixture, a set of contextual inputs, and a match event — and produces a layered, human-readable explanation of what is happening tactically, why momentum may shift, and how to interpret key decisions honestly.
 
 It is not a scoreline predictor. It is an explanation engine.
 
@@ -18,7 +18,7 @@ It is not a scoreline predictor. It is an explanation engine.
 
 World Cup matches are watched by billions of people across wildly different levels of football knowledge. Most AI tools in this space output predictions or statistics without explaining what they mean or why they matter. Fans — especially new or casual viewers — are left with numbers but no understanding.
 
-PitchWise AI closes that gap.
+PitchWise closes that gap.
 
 ---
 
@@ -47,7 +47,7 @@ Every factor is named, weighted, and visible. There is no black box.
 
 ## IBM Technology
 
-PitchWise AI was designed, built, and refined using **IBM Bob**, IBM's AI-supported development assistant. IBM Bob was used throughout the prototyping cycle for code generation, UI refinement, explainability framing, and documentation.
+PitchWise was designed, built, and refined using **IBM Bob**, IBM's AI-supported development assistant. IBM Bob was used throughout the prototyping cycle for code generation, UI refinement, explainability framing, and documentation.
 
 ---
 

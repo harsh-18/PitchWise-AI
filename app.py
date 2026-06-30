@@ -2,7 +2,7 @@ import streamlit as st
 
 
 st.set_page_config(
-    page_title="PitchWise AI",
+    page_title="PitchWise",
     page_icon="⚽",
     layout="wide",
 )
@@ -265,7 +265,7 @@ leader = team_a if p_a > p_b else team_b
 
 # ── Header ─────────────────────────────────────────────────────────────────────
 
-st.markdown("# ⚽ PitchWise AI")
+st.markdown("# ⚽ PitchWise")
 st.markdown(
     "**An explainable World Cup match companion.** "
     "PitchWise does not predict winners — it reads the tactical context, momentum signals, "
@@ -417,7 +417,7 @@ st.divider()
 
 st.markdown("### 🏆 The Bottom Line")
 st.success(
-    f"PitchWise AI is not a prediction engine — it is an explanation engine. "
+    f"PitchWise is not a prediction engine — it is an explanation engine. "
     f"It helps fans understand why **{leader}** holds the current contextual edge, "
     "what tactical or emotional event could shift that, and how to interpret each moment "
     "of the match clearly and honestly. "
@@ -425,7 +425,7 @@ st.success(
 )
 
 st.caption(
-    "Prototype · PitchWise AI hackathon demo · "
+    "Prototype · PitchWise hackathon demo · "
     "Uses an explainable scoring model and AI-generated narrative logic. "
     "No API keys or external services required. "
     "Built and refined with IBM Bob."
